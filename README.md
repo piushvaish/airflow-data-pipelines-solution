@@ -1,6 +1,9 @@
 # Project Description
 Sparkify has decided to introduce automation and monitoring to their data warehouse ETL pipelines. They want dynamic pipeline that can be build reusable tasks, monitor, and allow easy backfills. They also want to run quality tests against their datasets after the ETL steps have been executed to catch any discrepancies in the datasets.
 
+![Screenshot](airflow_images/airflow_working_solution.PNG)
+
+
 The source data resides in S3 and needs to be processed in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
 # Datasets
@@ -18,6 +21,8 @@ The project contains three major components:
 * Operators folder with custom operators
 * Helper class for the SQL transformations
 * DAG in the Airflow UI.
+
+![Screenshot](airflow_images/tree_view.PNG)
 
 DAG has been configured with these default parameters:
 
