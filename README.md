@@ -54,7 +54,7 @@ Here, we'll use Airflow's UI to configure your AWS credentials and connection to
 You can use the Project Workspace here and click on the blue Access Airflow button in the bottom right.
 If you'd prefer to run Airflow locally, open http://localhost:8080 in Google Chrome (other browsers occasionally have issues rendering the Airflow UI).
 1. Click on the Admin tab and select Connections
-![alt text](airflow_images/admin-connections.PNG, "admin-connections")
+![alt text](airflow_images/admin-connections.png, "admin-connections")
 
 2. Under Connections, select Create.
 ![alt text](airflow_images/create-connection.PNG, "create-connection")
