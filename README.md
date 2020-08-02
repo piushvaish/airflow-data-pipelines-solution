@@ -57,6 +57,7 @@ If you'd prefer to run Airflow locally, open http://localhost:8080 in Google Chr
 ![Screenshot](airflow_images/admin-connections.png)
 
 2. Under Connections, select Create.
+
 ![Screenshot](airflow_images/create-connection.png)
 3. On the create connection page, enter the following values:
 
