@@ -54,10 +54,10 @@ Here, we'll use Airflow's UI to configure your AWS credentials and connection to
 You can use the Project Workspace here and click on the blue Access Airflow button in the bottom right.
 If you'd prefer to run Airflow locally, open http://localhost:8080 in Google Chrome (other browsers occasionally have issues rendering the Airflow UI).
 1. Click on the Admin tab and select Connections
-![alt text](airflow_images/admin-connections.png, "admin-connections")
+![alt text](airflow_images/admin-connections.PNG, "admin-connections")
 
 2. Under Connections, select Create.
-![alt text](airflow_images/create-connection.png, "create-connection")
+![alt text](airflow_images/create-connection.PNG, "create-connection")
 3. On the create connection page, enter the following values:
 
 * Conn Id: Enter aws_credentials.
@@ -66,7 +66,7 @@ If you'd prefer to run Airflow locally, open http://localhost:8080 in Google Chr
 * Password: Enter your Secret access key from the IAM User credentials you downloaded earlier.
 Once you've entered these values, select Save and Add Another.
 
-![connection-aws](airflow_images/connection-aws-credentials.png, "connection-aws-credentials")
+![connection-aws](airflow_images/connection-aws-credentials.PNG, "connection-aws-credentials")
 
 4. On the next create connection page, enter the following values:
 
@@ -78,9 +78,9 @@ Once you've entered these values, select Save and Add Another.
 * Password: Enter the password you created when launching your Redshift cluster.
 * Port: Enter 5439.
 Once you've entered these values, select Save.
-![alt text](airflow_images/cluster-details.png, "cluster-details")
+![alt text](airflow_images/cluster-details.PNG, "cluster-details")
 You are all configured to run Airflow with Redshift.
-![alt text](airflow_images/connection-redshift.png, "connection-redshift")
+![alt text](airflow_images/connection-redshift.PNG, "connection-redshift")
 
 ## References
 * https://hub.udacity.com/rooms/community:nd027:843753-project-565-smg-2?contextType=room
